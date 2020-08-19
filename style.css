@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+
+	text-decoration: none;
+}
+
+
+.hedder{
+height: 60px;
+background-color: #95B9C7;
+text-align: center;
+line-height: 60px;
+}
+
+
+
+.hedder ul li{
+	display: inline-block;
+
+}
+
+.hedder ul li a{
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+	margin: 0 18px;
+	transition: 1s;
+}
+
+
+
+.hedder ul li a:hover{
+	color: #FFFF00;
+    transition: 1s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+background-image: url(moni.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+
+
+.fotter{
+height: 80px;
+background-color: #306EFF;
+text-align: center;
+line-height: 80px;
+
+}
+
+.fotter ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+
+.fotter ul li a i{
+	font-size: 26px;
+	height: 50px;
+	width: 50px;
+	background:#FFFF00;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 12px;
+	transition: 1s;
+}
+
+
+
+
+.fotter ul li a i:hover{
+	color: #FFFF00;
+	background-color: #800080;
+	transition: 1s;
+	transform: scale(0.8);
+}
